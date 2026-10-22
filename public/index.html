@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QuickBite</title>
-  <link rel="stylesheet" href="style.css">
+  <title>QuickBite | Restaurants</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <header><a href="index.html" class="brand">QuickBite</a></header>
+  <header class="topbar">
+    <a class="brand" href="/">QuickBite</a>
+    <nav><a href="/dashboard.html">Staff dashboard</a></nav>
+  </header>
   <main>
-    <h1>QuickBite</h1>
-    <p>Project setup works. Features arrive in the next steps.</p>
+    <h1>Choose a restaurant</h1>
+    <p class="muted">Order online, pick it up when it's ready.</p>
+    <div id="restaurants" class="grid">Loading...</div>
   </main>
+  <script type="module" src="/js/restaurants.js"></script>
 </body>
 </html>

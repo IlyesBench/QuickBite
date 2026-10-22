@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickBite | Order status</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">QuickBite</a>
+    <nav><a href="/dashboard.html">Staff dashboard</a></nav>
+  </header>
+  <main>
+    <h1>Order status</h1>
+    <div class="card">
+      <label for="orderId">Order ID</label>
+      <input id="orderId" placeholder="ord_..." autocomplete="off">
+      <p><button id="check">Check status</button></p>
+      <div id="order"></div>
+    </div>
+  </main>
+  <script type="module" src="/js/status.js"></script>
+</body>
+</html>
