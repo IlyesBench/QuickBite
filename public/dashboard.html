@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickBite | Staff dashboard</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">QuickBite</a>
+    <nav><a href="/">Customer view</a></nav>
+  </header>
+  <main>
+    <h1>Incoming orders</h1>
+    <label for="restaurant">Restaurant</label>
+    <select id="restaurant" style="max-width:320px"></select>
+    <div id="orders" class="stack" style="margin-top:1rem"></div>
+  </main>
+  <script type="module" src="/js/dashboard.js"></script>
+</body>
+</html>

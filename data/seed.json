@@ -1,0 +1,24 @@
+{
+  "meta": { "nextOrderNumber": 1000 },
+  "restaurants": [
+    { "id": "r1", "name": "Nonna's Kitchen", "cuisine": "Italian", "address": "14 Bridge Street" },
+    { "id": "r2", "name": "Sakura Sushi", "cuisine": "Japanese", "address": "8 Market Lane" },
+    { "id": "r3", "name": "Green Bowl", "cuisine": "Healthy", "address": "22 Station Road" }
+  ],
+  "menuItems": [
+    { "id": "m1", "restaurantId": "r1", "name": "Margherita Pizza", "description": "Tomato, mozzarella, basil", "price": 12.5, "available": true },
+    { "id": "m2", "restaurantId": "r1", "name": "Penne Arrabbiata", "description": "Spicy tomato sauce", "price": 11.0, "available": true },
+    { "id": "m3", "restaurantId": "r1", "name": "Garlic Bread", "description": "With herb butter", "price": 4.0, "available": true },
+    { "id": "m4", "restaurantId": "r1", "name": "Tiramisu", "description": "House made", "price": 6.5, "available": true },
+
+    { "id": "m5", "restaurantId": "r2", "name": "Salmon Nigiri (6 pcs)", "description": "Fresh salmon", "price": 9.5, "available": true },
+    { "id": "m6", "restaurantId": "r2", "name": "California Roll", "description": "Crab, avocado, cucumber", "price": 7.0, "available": true },
+    { "id": "m7", "restaurantId": "r2", "name": "Miso Soup", "description": "Tofu and spring onion", "price": 3.5, "available": true },
+    { "id": "m8", "restaurantId": "r2", "name": "Edamame", "description": "Salted", "price": 4.5, "available": true },
+
+    { "id": "m9", "restaurantId": "r3", "name": "Chicken Burrito Bowl", "description": "Rice, beans, salsa", "price": 11.5, "available": true },
+    { "id": "m10", "restaurantId": "r3", "name": "Falafel Wrap", "description": "Hummus and salad", "price": 8.5, "available": true },
+    { "id": "m11", "restaurantId": "r3", "name": "Hummus & Pita", "description": "Warm pita bread", "price": 5.5, "available": true }
+  ],
+  "orders": []
+}

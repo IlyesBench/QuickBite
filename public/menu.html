@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickBite | Menu</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">QuickBite</a>
+    <nav><a href="/dashboard.html">Staff dashboard</a></nav>
+  </header>
+  <main>
+    <h1 id="title">Menu</h1>
+    <p class="muted" id="subtitle"></p>
+    <div class="layout">
+      <section id="menu" class="stack">Loading...</section>
+      <aside class="card">
+        <h2>Your order</h2>
+        <ul id="cart" class="cart"></ul>
+        <p class="total"><span>Total</span><strong id="total">$0.00</strong></p>
+        <label for="slot">Pickup time</label>
+        <select id="slot"></select>
+        <p class="msg" id="msg"></p>
+        <button id="place" style="width:100%" disabled>Place order</button>
+      </aside>
+    </div>
+  </main>
+  <script type="module" src="/js/menu.js"></script>
+</body>
+</html>
